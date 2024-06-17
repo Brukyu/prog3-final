@@ -1,0 +1,37 @@
+.season {
+    margin-bottom: 20px;
+  }
+  
+  .seasonTitle {
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .seasonTitle:hover {
+    color: #0070f3;
+  }
+  
+  .episodes {
+    padding-left: 20px;
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .episode {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .episode:last-child {
+    border-bottom: none;
+  }
+  
+  .episode p {
+    margin: 5px 0;
+  }
+  

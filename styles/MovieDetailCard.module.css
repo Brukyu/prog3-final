@@ -1,0 +1,37 @@
+.detailCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  .genres, .director, .duration, .release_date, .synopsis, .rating {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #666666;
+  }
+  
+  .seasons {
+    margin-top: 20px;
+  }
+  
+  .season {
+    margin-top: 10px;
+    text-align: left;
+  }
+  

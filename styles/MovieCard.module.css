@@ -1,0 +1,43 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    overflow: hidden;
+    padding: 20px;
+    justify-content: space-between;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 620px;
+  }
+  .card:hover {
+    transform: scale(1.08);
+  }
+  
+  .poster {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .details {
+    padding: 1px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    flex-grow: 1;
+  }  
+  
+
+  .title {
+    font-size: 1.3em;
+    margin: 6px 0;
+  }
+  
+  .genre, .director, .duration, .releaseDate, .type {
+    font-size: 0.9em;
+    margin: 4px 0;
+    color: #666666;
+  }
+  
